@@ -6,9 +6,11 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/01 12:25:36 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 11:32:15 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 16:46:49 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 size_t  ft_strlcat(char *dest, const char *src, size_t size)
 {
@@ -23,8 +25,8 @@ size_t  ft_strlcat(char *dest, const char *src, size_t size)
         ft_memcpy(dest + dest_len, src, src_len + 1);
     else
     {
-        ft_memcpy(dest + dest_len, src, size - dest_len - 1)
+        ft_memcpy(dest + dest_len, src, size - dest_len - 1);
         dest[size - 1] = '\0';
     }
-    return ();
+    return (dest_len + src_len);
 }

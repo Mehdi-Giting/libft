@@ -6,9 +6,11 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 14:18:36 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 14:25:49 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 17:09:36 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char    *ft_strdup(const char *s1)
 {
@@ -16,7 +18,7 @@ char    *ft_strdup(const char *s1)
     char    *dest;
 
     i = 0;
-    dest = malloc(sizeof(char) * ft_strlen(s1) + 1)
+    dest = malloc(sizeof(char) * ft_strlen(s1) + 1);
     if (!dest)
         return (NULL);
     while (s1[i])

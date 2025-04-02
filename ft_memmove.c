@@ -6,9 +6,11 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/01 10:27:31 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/01 10:58:57 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 16:24:43 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void    *ft_memmove(void *dest, const void *src, size_t n)
 {

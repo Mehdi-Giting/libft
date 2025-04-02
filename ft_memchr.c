@@ -6,9 +6,11 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 12:26:18 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 12:42:20 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 16:24:28 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void    *ft_memchr(const void *s, int c, size_t n)
 {

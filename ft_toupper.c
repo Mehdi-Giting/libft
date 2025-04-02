@@ -6,13 +6,15 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 11:33:00 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 11:38:46 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 16:47:12 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int ft_toupper(int c)
 {
     if (c >= 97 && c <= 125)
-        return (c + 32)
+        return (c + 32);
     return (c);
 }

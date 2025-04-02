@@ -6,9 +6,11 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/31 12:03:34 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/03/31 12:06:14 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 16:24:25 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int ft_isprint(int c)
 {

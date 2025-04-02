@@ -6,9 +6,11 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 11:41:14 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 11:54:06 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 16:24:51 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char    *ft_strchr(const char *s, int c)
 {

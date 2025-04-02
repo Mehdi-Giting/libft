@@ -6,9 +6,11 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/31 14:16:25 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/03/31 14:45:55 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 16:24:06 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void    bzero(void *s, size_t len)
 {
