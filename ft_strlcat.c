@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/01 12:25:36 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 16:46:49 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 21:41:23 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ size_t  ft_strlcat(char *dest, const char *src, size_t size)
     src_len = ft_strlen(src);
     dest_len = ft_strlen(dest);
     if (dest_len >= size)
-        return (src_len + dest_len);
+        return (src_len + size);
     if (src_len < size - dest_len)
         ft_memcpy(dest + dest_len, src, src_len + 1);
     else

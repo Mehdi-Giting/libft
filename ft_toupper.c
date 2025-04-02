@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 11:33:00 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 16:47:12 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 22:00:11 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int ft_toupper(int c)
 {
-    if (c >= 97 && c <= 125)
-        return (c + 32);
+    if (c >= 97 && c <= 122)
+        return (c - 32);
     return (c);
 }

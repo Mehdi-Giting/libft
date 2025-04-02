@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/31 11:55:26 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/02 16:24:13 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/02 20:44:30 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int ft_isalnum(int c)
 {
     if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
         return (1);
-    else if (c >= 48 && c <= 58)
+    else if (c >= 48 && c <= 57)
         return (1);
     else
         return (0);
