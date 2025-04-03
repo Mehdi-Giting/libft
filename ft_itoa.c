@@ -19,8 +19,6 @@ int ft_count_char(int n)
     
     i = 0;
     ln = (long)n;
-    if (n == 0)
-        return (1);
     if (ln < 0)
     {
         ln = ln * -1;
@@ -50,21 +48,24 @@ char    *ft_itoa(int n)
     long   ln;
     char    *dest;
 
-    i = ft_count_char(n);
+    if (n == 0)
+        return (ft_strdup("0"));
+    i = ft_count_char(n) - 1;
     ln = (long)n;
     dest = ft_itoa_malloc(n);
+    if (!dest)
+        return (NULL);
     if (n < 0)
     {
         dest[0] = '-';
         ln = ln * -1;
-        i++;
     }
-    while (ln > 0 && dest[i - 1] != '-')
+    dest[i + 1] = '\0';
+    while (ln > 0)
     {
         dest[i] = ln % 10 + '0';
         ln = ln / 10;
         i--;
     }
-    dest[i] = '\0';
     return (dest);
 }
