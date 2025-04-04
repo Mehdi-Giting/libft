@@ -6,7 +6,7 @@
 /*   By: ellabiad <ellabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 16:06:32 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/04 14:47:52 by ellabiad         ###   ########.fr       */
+/*   Updated: 2025/04/04 16:10:06 by ellabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,12 @@
 # define LIBFT_H
 # include <stdlib.h>
 # include <unistd.h>
+
+typedef struct  s_list
+{
+    void    *content;
+    struct s_list   *next;
+}   t_list;
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
