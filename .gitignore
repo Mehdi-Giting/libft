@@ -1,5 +1,7 @@
 # Ignorer le testeur Moumounator_libft
 Moumounator_libft/
+libftTester/
+Libftest/
 
 # Ignorer les fichiers compilés
 *.o
