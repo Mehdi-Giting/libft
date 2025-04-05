@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 16:06:32 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/04/05 17:55:11 by marvin           ###   ########.fr       */
+/*   Updated: 2025/04/05 20:11:37 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 t_list  *ft_lstnew(void *content);
 void    ft_lstadd_front(t_list **lst, t_list *new);
+void	ft_lstadd_back(t_list **lst, t_list *new);
 int     ft_lstsize(t_list *lst);
 void    *ft_lstlast(t_list *lst);
 void    ft_lstdelone(t_list *lst, void (*del)(void *));
