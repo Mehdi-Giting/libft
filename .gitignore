@@ -2,6 +2,7 @@
 Moumounator_libft/
 libftTester/
 Libftest/
+libft-war-machine/
 
 # Ignorer les fichiers compilés
 *.o
