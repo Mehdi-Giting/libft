@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/03 09:33:30 by marvin            #+#    #+#             */
-/*   Updated: 2025/04/03 22:58:22 by marvin           ###   ########.fr       */
+/*   Updated: 2025/04/07 22:42:06 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,10 @@ char	*ft_strtrim(const char *s1, const char *set)
 	char	*dest;
 
 	i = 0;
-	if (!s1 || *s1 == '\0')
+	if (!s1)
 		return (NULL);
+	if (*s1 == '\0')
+		return (ft_strdup(""));
 	if (!set || *set == '\0')
 		return (ft_strdup(s1));
 	j = ft_strlen(s1) - 1;
