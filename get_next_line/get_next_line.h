@@ -6,15 +6,15 @@
 /*   By: mehdi <mehdi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 14:07:29 by ellabiad          #+#    #+#             */
-/*   Updated: 2025/11/02 02:08:12 by mehdi            ###   ########.fr       */
+/*   Updated: 2025/11/02 02:32:44 by mehdi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-#ifndef BUFFER_SIZE
-	# define BUFFER_SIZE 5
-#endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 5
+# endif
 # include <stdlib.h>
 # include <stddef.h>
 # include <stdio.h>
